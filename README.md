@@ -37,30 +37,14 @@ nano .env
 ```
 like this:
 
-#RPC URL for accessing testnet via HTTP.
-#e.g. https://sepolia.infura.io/v3/123aa110320f4aec179150fba1e1b1b1
-ETH_CLIENT_ADDRESS=https://sepolia.infura.io/v3/<key>
+![Capture](https://github.com/Rezaheydariii/Run-Nwaku-with-Docker-Compose/assets/140112620/68f68573-bc32-43a5-9086-17ba5e9af668)
 
-#Private key of testnet where you have sepolia ETH that would be staked into RLN contract.
-#Note: make sure you don't use the '0x' prefix.
-#e.g. 0116196e9a8abed42dd1a22eb63fa2a5a17b0c27d716b87ded2c54f1bf192a0b
-ETH_TESTNET_KEY=Ethereum wallet private key.
-
-#Password you would like to use to protect your RLN membership.
-RLN_RELAY_CRED_PASSWORD="my_secure_keystore_password"
-
-#Advanced. Can be left empty in normal use cases.
-NWAKU_IMAGE=
-NODEKEY=
-DOMAIN=
-EXTRA_ARGS=
-STORAGE_SIZE=
 
 # Do these things:
 Ethereum Sepolia WebSocket endpoint : [Here](https://github.com/waku-org/nwaku/blob/master/docs/tutorial/pre-requisites-of-running-on-chain-spam-protected-chat2.md#3-access-a-node-on-the-sepolia-testnet-using-infura )
 * Place final result in  .env file at appropriate location.
 * private key at appropriate location.
-sepolia faucet:[Here](https://www.infura.io/faucet/sepolia)
+* sepolia faucet:[Here](https://www.infura.io/faucet/sepolia)
  # Register RLN membership:
 The RLN membership is your access key to The Waku Network. Its registration is done onchain, and allows your nwaku node to publish messages in a decentralized and private way, respecting some rate limits. Messages exceeding the rate limit won't be relayed by other peers.
 
@@ -68,6 +52,7 @@ This command will register your membership and store it in keystore/keystore.jso
 ```
 ./register_rln.sh
 ```
+If you see an error, ignore it.
 #  Start your node:
 ```
 docker-compose up -d
