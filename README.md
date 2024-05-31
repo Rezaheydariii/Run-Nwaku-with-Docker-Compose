@@ -1,4 +1,4 @@
-# Run-Nwaku-with-Docker-Compose
+# Run Nwaku with Docker Compose
 ![Capture](https://github.com/Rezaheydariii/Run-Nwaku-with-Docker-Compose/assets/140112620/01dbf6e0-e499-4fb4-b4bd-e95f1ba94851)
 # Prerequisites:
 ```
