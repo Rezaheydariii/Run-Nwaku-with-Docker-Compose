@@ -90,5 +90,24 @@ down node:
 ```
 docker compose down
 ```
+get nwaku version: At this moment v0.28.0
+```
+curl http://127.0.0.1:8645/debug/v1/version
+```
+get nwaku info:
+```
+curl http://127.0.0.1:8645/debug/v1/info
+```
+or for enr address
+```
+curl http://127.0.0.1:8645/debug/v1/info | json_pp
+```
+get nwaku node logs:
+```
+docker compose logs nwaku
+```
 
+```
+docker ps
+```
 
