@@ -36,6 +36,7 @@ cp .env.example .env
 nano .env
 ```
 like this:
+
 #RPC URL for accessing testnet via HTTP.
 #e.g. https://sepolia.infura.io/v3/123aa110320f4aec179150fba1e1b1b1
 ETH_CLIENT_ADDRESS=https://sepolia.infura.io/v3/<key>
