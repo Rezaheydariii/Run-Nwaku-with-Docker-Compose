@@ -77,6 +77,7 @@ docker-compose up -d
 
 #  Interact with your nwaku node:
 See http://localhost:3000/d/yns_4vFVk/nwaku-monitoring for node metrics.
+
 See localhost:4000. Under development 🚧
 
 
