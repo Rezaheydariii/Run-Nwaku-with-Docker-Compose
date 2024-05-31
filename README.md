@@ -57,7 +57,7 @@ EXTRA_ARGS=
 STORAGE_SIZE=
 
 # Do these things:
-Ethereum Sepolia WebSocket endpoint : https://github.com/waku-org/nwaku/blob/master/docs/tutorial/pre-requisites-of-running-on-chain-spam-protected-chat2.md#3-access-a-node-on-the-sepolia-testnet-using-infura
+Ethereum Sepolia WebSocket endpoint : [Here](https://github.com/waku-org/nwaku/blob/master/docs/tutorial/pre-requisites-of-running-on-chain-spam-protected-chat2.md#3-access-a-node-on-the-sepolia-testnet-using-infura )
 * Place final result in  .env file at appropriate location.
 * private key at appropriate location.
 sepolia faucet: https://www.infura.io/faucet/sepolia
@@ -80,5 +80,15 @@ See http://localhost:3000/d/yns_4vFVk/nwaku-monitoring for node metrics.
 
 See localhost:4000. Under development 🚧
 
+
+# Useful commands:
+logs node:
+```
+docker compose logs
+```
+down node:
+```
+docker compose down
+```
 
 
