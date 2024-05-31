@@ -60,8 +60,8 @@ STORAGE_SIZE=
 Ethereum Sepolia WebSocket endpoint : [Here](https://github.com/waku-org/nwaku/blob/master/docs/tutorial/pre-requisites-of-running-on-chain-spam-protected-chat2.md#3-access-a-node-on-the-sepolia-testnet-using-infura )
 * Place final result in  .env file at appropriate location.
 * private key at appropriate location.
-sepolia faucet: https://www.infura.io/faucet/sepolia
-# Register RLN membership:
+sepolia faucet:[Here](https://www.infura.io/faucet/sepolia)
+ # Register RLN membership:
 The RLN membership is your access key to The Waku Network. Its registration is done onchain, and allows your nwaku node to publish messages in a decentralized and private way, respecting some rate limits. Messages exceeding the rate limit won't be relayed by other peers.
 
 This command will register your membership and store it in keystore/keystore.json. Note that if you just want to relay traffic (not publish), you don't need one.
